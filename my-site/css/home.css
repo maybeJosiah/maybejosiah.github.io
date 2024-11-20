@@ -1,0 +1,170 @@
+* {
+padding: 0px;
+margin: 0px;
+}
+/*Main area stuff*/
+html {
+margin:0px;
+padding:0px;
+width: 100%;
+}
+body {
+width: 100%;
+margin:0px;
+padding:0px;
+background-image: url("../images/favicon.png");
+font-weight: bold;
+}
+/*Link stuff*/
+a {
+margin-left: 0px;
+margin-right: 0px;
+padding: 0px;
+font-size: 4.5vw;
+position: absolute;
+text-align: center;
+font-family: serif;
+transition: color 0.5s;
+}
+/*img styles*/
+img {
+padding: 0px;
+margin: 0px;
+}
+/*regular a styles*/
+#z {
+background-color: #ff0000;
+color: #00ffff;
+display: inline;
+width: 20%;
+left: 0px;
+}
+#y {
+background-color: #ffffff;
+color: #000000;
+display: inline;
+width: 20%;
+left: 20%;
+}
+#x {
+background-color: #000000;
+color: #ffffff;
+display: inline;
+width: 20%;
+left: 40%;
+}
+#w {
+background-color: #ffffff;
+color: #000000;
+display: inline;
+width: 20%;
+left: 60%;
+}
+#v {
+background-color: #0000ff;
+color: #ffff00;
+display: inline;
+width: 20%;
+left: 80%;
+}
+/*Hover styles*/
+#z:hover {
+background-color: #ff0000;
+color: #0000ff;
+display: inline;
+width: 20%;
+left: 0px;
+}
+#y:hover {
+background-color: #ffffff;
+color: #505050;
+display: inline;
+width: 20%;
+left: 20%;
+}
+#x:hover {
+background-color: #000000;
+color: #afafaf;
+display: inline;
+width: 20%;
+left: 40%;
+}
+#w:hover {
+background-color: #ffffff;
+color: #505050;
+display: inline;
+width: 20%;
+left: 60%;
+}
+#v:hover {
+background-color: #0000ff;
+color: #ff0000;
+display: inline;
+width: 20%;
+left: 80%;
+}
+/*Nav styles*/
+nav {
+width: 100%;
+margin-top: -1.3vw;
+}
+/*Heading styles*/
+h1 {
+display: inline;
+font-size: 5.5vw;
+font-family: serif;
+}
+/*Main stuff and backgrounds*/
+#div {
+background: linear-gradient(90deg, #00ffff, #ffff00);
+}
+#main {
+background: linear-gradient(0deg, blue, red);
+width: 50%;
+margin-top: 5.7vw;
+display: inline-block;
+position: absolute;
+left: 50%;
+}
+/*Picture of me styles*/
+#me {
+width: 50%;
+height: auto;
+margin-top: 5.7vw;
+}
+/*Paragraph stuff*/
+p {
+font-size: 1.5rem;
+color: white;
+margin-top: 0px;
+margin-bottom: 0px;
+font-family: sans-serif;
+}
+h2 {
+font-size: 2rem;
+color: white;
+margin-top: 0px;
+margin-bottom: 0px;
+font-family: sans-serif;
+}
+h3 {
+font-size: 1.8rem;
+color: white;
+margin-top: 0px;
+margin-bottom: 0px;
+font-family: sans-serif;
+}
+/*Various things related to header*/
+#icon {
+height: 6vw;
+width: auto;
+}
+#top {
+position: relative;
+top: -1.5vw;
+}
+/*Text container styles*/
+#contain {
+margin-top: -1.8vw;
+}
+/*X E.*/
