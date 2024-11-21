@@ -1,0 +1,115 @@
+/*Reset*/
+* {
+margin: 0px;
+padding: 0px;
+border-width: 0px;
+}
+/*regular a styles*/
+a {
+font-size: 4.5vw;
+position: absolute;
+text-align: center;
+font-family: serif;
+transition: color 0.5s;
+}
+#z {
+background-color: #ff0000;
+color: #00ffff;
+width: 20%;
+left: 0px;
+}
+#y {
+background-color: #ffffff;
+color: #000000;
+width: 20%;
+left: 20%;
+}
+#x {
+background-color: #000000;
+color: #ffffff;
+width: 20%;
+left: 40%;
+}
+#w {
+background-color: #ffffff;
+color: #000000;
+width: 20%;
+left: 60%;
+}
+#v {
+background-color: #0000ff;
+color: #ffff00;
+width: 20%;
+left: 80%;
+}
+/*Hover styles*/
+#z:hover {
+background-color: #ff0000;
+color: #0000ff;
+width: 20%;
+left: 0px;
+}
+#y:hover {
+background-color: #ffffff;
+color: #505050;
+width: 20%;
+left: 20%;
+}
+#x:hover {
+background-color: #000000;
+color: #afafaf;
+width: 20%;
+left: 40%;
+}
+#w:hover {
+background-color: #ffffff;
+color: #505050;
+width: 20%;
+left: 60%;
+}
+#v:hover {
+background-color: #0000ff;
+color: #ff0000;
+width: 20%;
+left: 80%;
+}
+/*Nav styles*/
+nav {
+width: 100%;
+height: 4.8vw;
+}
+/*Main area stuff*/
+body, html {
+width: 100vw;
+min-height: 100vh;
+}
+body {
+background-image: url("../images/favicon.png");
+}
+/*Section stuff*/
+section:nth-of-type(odd) {
+background-image: linear-gradient(90deg,#00ffff,#ffff00);
+}
+section:nth-of-type(even) {
+background-image: linear-gradient(270deg,#00ffff,#ffff00);
+}
+/*h1 and h2*/
+h1 {
+font-size: 2.2rem;
+color: #000000;
+font-family: serif;
+text-align: center;
+}
+h2 {
+font-size: 2rem;
+color: #000000;
+font-family: serif;
+text-align: center;
+}
+/*Paragraphs*/
+p {
+font-size: 1.5rem;
+color: #000000;
+font-family: sans-serif;
+}
+/*X E*/
