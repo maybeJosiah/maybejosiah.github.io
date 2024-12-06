@@ -118,6 +118,8 @@ font-family: serif;
 #div {
 background: linear-gradient(90deg, #00ffff, #ffff00);
 }
+/*For bigger screens*/
+@media screen and (min-width: 1001px) {
 #main {
 background: linear-gradient(0deg, blue, red);
 width: 50%;
@@ -131,6 +133,22 @@ left: 50%;
 width: 50%;
 height: auto;
 margin-top: 5.7vw;
+}
+}
+/*For smaller screens*/
+@media screen and (max-width: 1000px) {
+#main {
+background: linear-gradient(0deg, blue, red);
+width: 100%;
+display: block;
+}
+/*Picture of me styles*/
+#me {
+width: 100%;
+height: auto;
+display: block;
+margin-top: 5.65vw;
+}
 }
 /*Paragraph stuff*/
 p {

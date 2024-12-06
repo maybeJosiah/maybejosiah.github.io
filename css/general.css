@@ -4,19 +4,6 @@ margin: 0px;
 padding: 0px;
 border-width: 0px;
 }
-/*Section a styles*/
-section a {
-font-size: 1.5rem;
-text-align: left;
-position: relative;
-color: #ff0000;
-}
-section a:hover {
-font-size: 1.5rem;
-text-align: left;
-position: relative;
-color: #0000ff;
-}
 /*regular a styles*/
 a {
 font-size: 4.5vw;
@@ -99,55 +86,49 @@ min-height: 100vh;
 body {
 background-image: url("../images/favicon.png");
 }
-/*Headings*/
+/*main stuff*/
+main, section#main {
+display: inline-flex;
+flex-direction: row;
+}
+main > *, section#main > * {
+width:50vw;
+flex: 1 1 0px;
+}
+/*Section*/
+section {
+background-image: linear-gradient(0deg,#ffff00,#00ffff);
+}
+section:nth-of-type(odd) {
+background-image: linear-gradient(180deg,#ffff00,#00ffff);
+}
+section#left {
+border-right-width: 0.1rem;
+border-right-style: solid;
+border-right-color: #000000;
+margin-right: -0.1rem;
+z-index: 2;
+}
+/*Text sizes*/
 h1 {
-font-size: 2.2rem;
+font-size: 2.1rem;
 color: #000000;
-font-family: serif;
 text-align: center;
 }
 h2 {
 font-size: 2rem;
-color: #000000;
-font-family: serif;
+color: #ffffff;
+background-image: linear-gradient(270deg,#ff0000,#0000ff);
+margin-top: -5px;
 text-align: center;
 }
 h3 {
 font-size: 1.9rem;
 color: #000000;
-font-family: serif;
 text-align: center;
 }
-h2#stop {
-font-size: 2rem;
-color: #ffffff;
-font-family: serif;
-text-align: left;
-}
-/*Paragraphs*/
 p {
 font-size: 1.5rem;
 color: #000000;
-font-family: sans-serif;
-}
-li {
-color: #ffffff;
-font-size: 1.5rem;
-font-family: sans-serif;
-}
-/*Flex layout*/
-main {
-display: flex;
-flex-direction: row;
-width: 100vw;
-}
-section#skill {
-flex: 0.1 0.1 0px;
-background-image: linear-gradient(0deg,red,blue);
-padding-left: 2rem;
-}
-section#main {
-flex: 1 1 0px;
-background-image: linear-gradient(270deg,#ffff00,#00ffff);
 }
 /*X E*/
